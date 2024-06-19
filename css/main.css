@@ -1,5 +1,78 @@
 @import url(./fonts.css);
 
+/* CUSTOM PROPS */
+
+:root {
+    --Galactic-Blue: #755CDE;
+    --Summer-Yellow: #F6A560;
+    --Pink: #F39E9E;
+    ---Light-Red: #EB7565;
+    --Cyan: #61C4B7;
+    --Purple: #552049;
+    --Black: #030303;
+    --Medium-Brown: #7A746E;
+    --Light-Cream: #FFF7F0;
+    --PlusJakartaSans: "PlusJakartaSans"
+}
+
+/* GLOBAL STYLES */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* CONTAINER */
+
+.container {
+    max-width: 1190px;
+    width: 100%;
+    padding-left: 40px;
+    padding-right: 40px;
+    margin: auto;
+}
+
 body {
-    font-family: "PlusJakartaSans";
+  font-family: var(--PlusJakartaSans);
+  font-size: 18px;
+  line-height: 28px;
+  background-color: var(--Light-Cream);
+}
+
+/* BTN */
+
+.btn-1,.btn-2 {
+    display: block;
+    padding: 14px 45px;
+    background-color: var(--Black);
+    color: var(--Light-Cream);
+    font-family: var(--PlusJakartaSans);
+    font-size: 16px;
+    line-height: 28px;
+    font-weight: 700;
+    width: max-content;
+    border-radius: 28px;
+    transition: .4s;
+}
+
+.btn-1:hover {
+    background-color: var(--Galactic-Blue);
+    cursor: pointer;
+}
+
+.btn-2 {
+    background-color: var(---Light-Red);
+}
+.btn-2:hover {
+    background-color: var(--Summer-Yellow);
+    cursor: pointer;
 }
