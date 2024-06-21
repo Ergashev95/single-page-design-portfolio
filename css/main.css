@@ -76,3 +76,55 @@ body {
     background-color: var(--Summer-Yellow);
     cursor: pointer;
 }
+
+
+/* SITE-HEADER */
+.site-header-hero {
+    padding-top: 34px;
+    padding-bottom: 40px;
+
+}
+.site-header {
+
+}
+.d-flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    display: block;
+}
+.logo-image {
+    width: 64px;
+    height: 64px;
+    object-fit: cover;
+}
+/* SITE-HEADER */
+
+/* SITE-HERO */
+.site-hero {
+    display: flex;
+    flex-direction: column;
+   align-items: center;
+   row-gap: 23px;
+   
+}
+.site-headline {
+    margin-top: 70px;
+    color: var(--Black);
+    font-size: 56px;
+    font-weight: 700;
+
+}
+.site-desc {
+    max-width: 730px;
+    width: 100%;
+    color: var(--Medium-Brown);
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 28px;
+    text-align: center;
+}
+/* SITE-HERO */
