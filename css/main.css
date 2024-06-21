@@ -80,7 +80,7 @@ body {
 
 /* SITE-HEADER */
 .site-header-hero {
-    padding-top: 34px;
+    padding-top: 38px;
     padding-bottom: 40px;
 
 }
@@ -110,7 +110,7 @@ body {
    
 }
 .site-headline {
-    margin-top: 70px;
+    margin-top: 66px;
     color: var(--Black);
     font-size: 56px;
     font-weight: 700;
@@ -128,9 +128,6 @@ body {
 /* SITE-HERO */
 
 /* SKILLS SECTION */
-.skills {
-}
-
 .skills-grid {
     display: grid;
     grid-template-columns: repeat(6,1fr);
