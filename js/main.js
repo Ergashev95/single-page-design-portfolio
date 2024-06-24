@@ -18,9 +18,8 @@ $(document).ready(function(){
                 items:1.5,
             },
             992: {
-
+                items: 3,
             }
-            
         }
     });
   });
