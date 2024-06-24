@@ -34,6 +34,8 @@
     .about-me__headline {
         font-size: 32px;
     }
+
+   
 }
 
 @media only screen and (max-width: 576px) {
@@ -98,4 +100,7 @@
     .about-me__btn {
         margin: auto;
     }
+
+    /* carousel section */
+
 }

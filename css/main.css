@@ -225,7 +225,33 @@ body {
     font-weight: 500;
     line-height: 28px;
 }
-.about-me__btn {
-}
 
 /* ABOUT ME SECTION */
+
+/* MY WORK SECTION */
+.my-work {
+    overflow: hidden;
+}
+.work-headline {
+    text-align: center;
+    color: var(--Black);
+    font-size: 32px;
+    font-weight: 700;
+}
+.work-carousel {
+    display: flex;
+    column-gap: 30px;
+    padding-top: 56px;
+    padding-bottom: 56px;
+}
+.work-carousel__image {
+    max-width: 540px;
+    width: 100%;
+    height: 360px;
+    border-radius: 8px;
+}
+.work-carousel__image:hover {
+    cursor: pointer;
+}
+/* MY WORK SECTION */
+

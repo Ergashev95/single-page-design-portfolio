@@ -5,6 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
     <link rel="icon" type="image/png" sizes="32x32" href="./assets/logo.svg" />
+    <!-- link owl-carousel css file -->
+    <link rel="stylesheet" href="./libs/OwlCarousel2-develop/dist/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="./libs/OwlCarousel2-develop/dist/assets/owl.theme.default.min.css">
+
     <title>Single-page design portfolio</title>
     <!-- links main.css file -->
     <link rel="stylesheet" href="./css/main.css" />
@@ -103,7 +107,27 @@
           </div>
         </div>
       </section>
+
+      <section class="my-work">
+        <h2 class="work-headline">My Work</h2>
+        <div class="work-carousel owl-carousel">
+          <img src="./assets/image-slide-3.jpg" alt="Image one" class="work-carousel__image">
+          <img src="./assets/image-slide-2.jpg" alt="Image two" class="work-carousel__image">
+          <img src="./assets/image-slide-1.jpg" alt="Image three" class="work-carousel__image">
+          <img src="./assets/image-slide-4.jpg" alt="Image four" class="work-carousel__image">
+          <img src="./assets/image-slide-5.jpg" alt="Image five" class="work-carousel__image">
+
+        </div>
+      </section>
     </main>
     <!-- SITE-MAIN -->
+
+
+
+
+    <!-- owl carousel  -->
+    <script src="./js/jquery.js"></script>
+    <script src="./libs/OwlCarousel2-develop/dist/owl.carousel.min.js"></script>
+    <script src="./js/main.js"></script>
   </body>
 </html>
