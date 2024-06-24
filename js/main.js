@@ -7,7 +7,7 @@ $(document).ready(function(){
         autoplay: true,
         autoplayTimeout: 2000,
         autoplayHoverPause: true,
-        // nav: true
+      
         responsive : {
             // breakpoint from 0 up
             375 : {

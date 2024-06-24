@@ -253,5 +253,26 @@ body {
 .work-carousel__image:hover {
     cursor: pointer;
 }
+.carousel-button {
+  display: flex;
+  justify-content: center;
+  column-gap:16px;
+}
+.carousel-btn {
+    width: 64px;
+    height: 64px;
+    background-color: var(--Black);
+    border: unset;
+    color: #fff;
+    border-radius: 50%;
+    transition: 0.4s
+   
+}
+.carousel-btn:hover {
+    background-color: var(--Galactic-Blue);
+    cursor:pointer;
+}
+
+
 /* MY WORK SECTION */
 
