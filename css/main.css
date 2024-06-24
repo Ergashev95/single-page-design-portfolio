@@ -188,3 +188,44 @@ body {
     grid-column: span 2;
 }
 /* SKILLS SECTION */
+
+/* ABOUT ME SECTION */
+.about-me {
+    padding-top: 150px;
+    padding-bottom: 88px;
+}
+.about-me__image {
+    max-width: 445px;
+    width: 100%;
+    height: 445px;
+    border-radius: 50%;
+}
+.image-item {
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+.about-me__desc {
+    max-width: 540px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    row-gap: 32px;
+}
+.about-me__headline {
+    color: var(--Black);
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 40px;
+
+}
+.about-me__text {
+    color: var(--Medium-Brown);
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 28px;
+}
+.about-me__btn {
+}
+
+/* ABOUT ME SECTION */
