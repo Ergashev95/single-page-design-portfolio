@@ -276,3 +276,46 @@ body {
 
 /* MY WORK SECTION */
 
+/* CONTACT SECTION */
+.contact {
+    padding-top: 88px;
+    padding-bottom: 56px;
+}
+.contact-content {
+    background-color: var(--Black);
+    border-radius: 10px;
+    padding-left: 65px;
+    padding-right: 65px;
+    width: 100%;
+    height: 320px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.contact-desc {
+    display: flex;
+    flex-direction: column;
+    row-gap: 25px;
+}
+.contact-title {
+    color: var(--Light-Cream);
+    font-size: 40px;
+    font-weight: 700;
+}
+.contact-text {
+    max-width: 540px;
+    width: 100%;
+    color: var(--Light-Cream);
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 28px;
+
+}
+/* CONTACT SECTION */
+
+/* SITE-FOOTER */
+.site-footer {
+    padding-bottom: 64px;
+}
+/* SITE-FOOTER */
+
